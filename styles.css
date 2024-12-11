@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8A9B8; 
+    color: #333;
+}
+
+h1, h2 {
+    color: #F8A9B8; 
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #D54773; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo del logo */
+header .logo {
+    width: 250px; 
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre el logo y el título */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Sección de Bienvenida */
+#bienvenida {
+    padding: 20px;
+    background-color: #fff; 
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#bienvenida h2 {
+    font-size: 1.8em;
+    color: #F8A9B8; 
+}
+
+/* Sección de Productos Destacados */
+#productos {
+    padding: 20px;
+    background-color: #fff; 
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.galeria-productos {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFE5E5; 
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    font-size: 1.5em;
+    color: #D54773; 
+}
+
+.producto p {
+    font-size: 1.1em;
+}
+
+.producto p strong {
+    color: #F2A1A1; 
+}
+
+/* Sección de Contacto */
+#contacto {
+    padding: 20px;
+    background-color: #fff; 
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #D54773; 
+}
+
+#contacto input, #contacto textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #f5d2b1; 
+    border-radius: 5px;
+}
+
+#contacto button {
+    padding: 10px;
+    background-color: #D54773; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #F2A1A1;
+}
+
+/* Pie de página */
+footer {
+    background-color: #D54773; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: top;
+    width: 100%;
+    bottom: 0;
+}
